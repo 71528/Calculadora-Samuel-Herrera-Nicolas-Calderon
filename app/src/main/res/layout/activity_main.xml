@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4">
+
+
+    <EditText
+        android:id="@+id/et_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginRight="20dp"
+        android:background="#8BC34A"
+        android:backgroundTint="#D0C1BF"
+
+        android:gravity="end"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#FF5722"
+        android:columnCount="4"
+        android:padding="10dp"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/button_7"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight=".5"
+            android:backgroundTint="#FF5722"
+            android:text="7"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_8"
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="8"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_9"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="9"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_divide"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="/"
+            android:textSize="25sp" />
+
+        <!-- Fila 2 -->
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="4"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="5"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="6"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="*"
+            android:textSize="25sp" />
+
+        <!-- Fila 3 -->
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="1"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="2"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="3"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_subtract"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="-"
+            android:textSize="25sp" />
+
+        <!-- Fila 4 -->
+        <Button
+            android:id="@+id/button_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:backgroundTint="#FF5722"
+            android:text="0"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_equal"
+            android:layout_width="0dp"
+            android:layout_height="79dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="="
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF5722"
+            android:text="+"
+            android:textSize="25sp" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="BIENVENIDO A MI CALCULADORA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="normal|italic" />
+
+
+</RelativeLayout>
